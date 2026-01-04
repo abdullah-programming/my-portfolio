@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 3, 7, 18; /* gray-950 */
+  --background-end-rgb: 3, 7, 18;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  background-color: #4b5563 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #0ea5e9 !important; /* sky-500 */
+}
